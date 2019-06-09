@@ -1,0 +1,52 @@
+What are the main parts of IoT systems?
+IoT system consists of three main parts: <br> Sensors<br> Network connectivity<br> Data storage applications.
+What are security concerns related to IoT?
+This is the common IoT Interview Questions asked in an interview. Data security and privacy are major concerns related to IoT. These devices are vulnerable to hacking and cloud endpoints could be used by hackers to attack servers. Software developers and device designers have to ensure adequate security and privacy measures.
+explain the IoT protocol stack.
+IoT has 4 protocol layers: <br>Sensing and information: Includes various smart sensor devices based on GPS, RFID, Wi-Fi etc. <br>Network connectivity: Layer is based on a wired and wireless network such as WLAN, WMAN, Ethernet, optical fiber and more. <br>Information processing layer <br>Application layer
+Explain the basic architecture of the IoT network.
+IoT has three main parts namely sensors, network connectivity and data storage applications. Sensors either communicate directly with the central server for data storage or communicate via gateway devices. A gateway can handle various wireless interfaces that is why one gateway can handle multiple technologies and multiple sensors. The typical wireless technologies used widely are Zigbee, Zwave, RFID, NFC etc. gateway interfaces with the cloud using wireless or wired technologies such as Wi-Fi, Mobile or Fiber, DSL.
+What is IoT?
+Internet of Things is an ecosystem of connected physical objects that are accessible through the internet. The thing in IoT could be a person with a heart monitor or an automobile with built-in-sensors, i.e. objects that have been assigned an IP address and have the ability to collect and transfer data over a network without manual assistance or intervention. The embedded technology in the objects helps them to interact with internal states or the external environment, which in turn affects the decisions taken.
+Give examples of the Impact of Internet of Things (IoT) on our lives?
+With interconnected devices, you can better arrange your lifestyles and be extra productive, safer, smarter and informed than ever earlier than.<br>As an instance how smooth it will be that allows you to begin your day if your alarm clock is not only capable of wake you up however also able to talk together with your brewer to tell it that you are awake on the same time notifies your geezer to start water heating.
+What affects will the internet of things (IoT) have on infrastructure and smart cities region?
+The competencies of the clever grid, smart homes, and its combined with IoT components in other public utilities, including roadways, sewage, and water transport can make a contribution to greater included and useful infrastructure, particularly in towns.<br><br>For example, visitors government can use cameras and embedded sensors to manipulate visitors float and assist lessen congestion. IoT additives embedded in road lighting or different infrastructure elements can provide capabilities together with advanced lighting fixtures control, environmental monitoring, and even assistance for drivers in locating parking spaces. Smart rubbish cans can signal waste removal groups when they are complete, streamlining the routes that rubbish vans take.
+What function does the community play within the lot?
+The network plays a crucial function in the net of the entirety. It needs to provide a clever, practical, comfortable infrastructure that may scale to assist billions of context-conscious gadgets.
+What all projects can be done with IOT?
+1)IoT Based Humidity and Temperature Monitoring Using Arduino Uno<br>2)IoT Weather Reporting system using Raspberry pi<br>3)IoT Connected Healthcare Applications<br>4)IoT Based Intelligent Traffic Management System
+What database should I use for my real time sensor data? Databases used?
+1)SQL<br> 2)NoSQL <br>3)MongoDB <br>4)AWS
+real time applications of IOT?
+Smart Home<br>Wearables<br>Connected Cars<br>Industrial Internet<br>IoT in agriculture
+Did You eat?
+Sorry, I dont eat.
+Tell me some joke.
+Haha! I am an IOT guide.
+What does IOT stand for? What is IOT?
+The full form for IOT is Internet of Things.<br?The Internet of things is nothing but a network of various physical instruments or devices and other embedded items which with electronics, software, actuators over a network connectivity. Using this network connectivity, a free flow of information can be collected and at the same time, it can exchange the data.
+What are the important components that exist in the Internet of Things?
+The important components that exist in the Internet of Things are as follows:<br>1. Hardware<br>2. Software<br>3. Verbal exchange infrastructure
+impact the sustainability of the business and will it have any impact on the environment?
+Well, with the help of Internet of Things will definitely have a positive impact on the existing processes and the execution. For example, with the help of Internet of Things, the street light systems can be managed way better than what we are going through now. Using an automation process the street lighting system can be better managed and a lot of electricity can be saved and a lot of power could be used elsewhere where it is really needed. Also, with the effective management, the amount of carbon emissions could also be reduced to drastic level because the street light system is effectively and efficiently managed. So thus, making a positive impact on the process itself and also has a good impact on the environment.
+Explain what is the role does the network play in the Internet of Everything?
+Well, the network itself plays an important role in the word of the Internet of Things, it is a driving factor for bringing all the different systems together which work hand in hand and show us a better future or betterment in every process.
+Explain what is the Internet of everything?
+The internet of everything is nothing but a smart way of people connection, process connection and data exchange.
+What sort of information does Internet of Things objects communicate?
+To be honest, it all depends on the sort of the objects that are used within the process. For example An object with a single sensor, like a smart thermometer. With this device, the room temperature can be measured and the information is sent across to the remote weather monitoring center. Alternatively, lets consider a wireless medical device, it is capable of taking multiple values or data like body temperature, blood pressure, pulse and any other variables are shared between the medical service provider via a computer or a smartphone.
+Why will Internet of Things be successful in the coming years?
+Well, the internet of things will be a huge hit in coming years because of the availability of broadband internet. If you have observed in last few years the broadband internet is actually got cheaper compared to the past and the availability has also reached to local environments. Also, the hardware systems and the manufacturing of the sensors have also gone down a lot compared to the last few years. As the internet is the biggest factor that plays a positive role for the Internet of things success, with the combination of right hardware and the internet it will be a massive success and this is why I think the Internet of things will be massive in next few years.
+What is the impact of Internet of Things have on Healthcare sector?
+To be honest, with you there will be a tremendous growth when the Internet of Things services are implemented in healthcare sector. The first and foremost and the biggest problem is providing quality healthcare service to every individual has been a major challenge for all the countries. With the help of Internet of Things, a lot of smart devices and equipment have been designed to cater this problem. The approach of Telemedicine and Telehealth is one of the biggest achievement in this modern era. All this is happened because of strong network channel integrated with a wide variety of smart tools which are utilized in day to day health care evaluation of an individual. As of now, we have seen companies evolving in this space where they are trying to provide doctor consultation virtually when they need it at night or in an emergency level.
+What is the difference between IIOT and IOT?
+The acronym IIOT stands for Industrial Internet of Things. This is very different when compared to the Internet of things application. When it comes to Industrial Internet of Things, they use heavy or critical machines something like the hardware used in aerospace and in defense where these devices are connected over a network and any failure of these devices will cause a life-threatening situation. Well, when it comes to the internet of things it is just done at a small scale level where there is no need to worry about life-threatening situations because it is more catered towards the process execution and enhancement.
+What are sensors?
+A sensor is a device used to measure a property, such as pressure, position, temperature, or acceleration, and respond with feedback. TE Connectivity (TE) is a global technology leader, providing sensors and connectivity essential in today's increasingly connected world.
+what is network connectivity?
+Network connectivity is also a kind of metric to discuss how well parts of the network connect to one another. Related terms include network topology, which refers to the structure and makeup of the network as a whole.
+IOT?
+Internet of Things is an ecosystem of connected physical objects that are accessible through the internet. The thing in IoT could be a person with a heart monitor or an automobile with built-in-sensors, i.e. objects that have been assigned an IP address and have the ability to collect and transfer data over a network without manual assistance or intervention. The embedded technology in the objects helps them to interact with internal states or the external environment, which in turn affects the decisions taken.
+what do you understand then?
+I understand IOT Questions. There is help where you ask what all questions you could ask me.

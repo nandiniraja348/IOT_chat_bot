@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+  </head>
+  <body >
+      <div class="jumbotron text-center">
+      <h1>IOT CHAT BOT</h1>
+      <a href="/help" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Click here to view the questions</a>
+      </div> 
+      <div class="container" >
+        <div id="mainbody" >
+            
+            <div class="alert alert-success" role="alert"><img src="https://previews.123rf.com/images/goodzone95/goodzone951803/goodzone95180300023/96668201-chatbot-icon-cute-robot-working-behind-laptop-modern-bot-sign-design-smiling-customer-service-robot-.jpg"  align="right" alt="Chat_bot" style="width:50px;height:50px;">Hi! I'm Chatterbot.</div>
+          </div>
+            <div id="userInput" class="form-group">
+              <label for="exampleInputEmail1"></label>
+              <input id="your_question" type="text" name="msg" placeholder="Any IOT queries?" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input id="onclick" class="btn btn-primary" type="submit" value="Send">
+            </div>
+            <script>
+              function chatbotiot() {
+                var input_value = $("#your_question").val();
+                var append_1 = '<div class="container"><img src="https://cdn2.iconfinder.com/data/icons/people-80/96/Picture1-512.png" align="left" alt="You" style="width:50px;height:50px;"><div class="alert alert-info" role="alert"><span>' + input_value + '</span></p></div>';
+                $("#your_question").val("");
+                $("#mainbody").append(append_1);
+                document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+                $.get("/get", { ques: input_value }).done(function(data) {
+                var append_2 = '<div class="container"><img src="https://previews.123rf.com/images/goodzone95/goodzone951803/goodzone95180300023/96668201-chatbot-icon-cute-robot-working-behind-laptop-modern-bot-sign-design-smiling-customer-service-robot-.jpg"  align="right" alt="Chat_bot" style="width:50px;height:50px;"><div class="alert alert-success" role="alert"><span>' + data + '</span></div></div>';
+                $("#mainbody").append(append_2);
+                document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+               });
+                }
+        $("#your_question").keypress(function(e) {
+            if(e.which == 13) {
+              chatbotiot();
+            }
+        });
+                $("#onclick").click(function() {
+                  chatbotiot();
+                })
+              </script>
+        </div>
+    </body>
+</html>
